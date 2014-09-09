@@ -31,6 +31,10 @@ my_Map.insert(make_pair<string,int>("d",4));
 	if (my_Itr != my_Map.end()) {
 		int j = my_Itr->second;
 	} 
+(3)	// 如果返回0，表示"a"不在map中
+	// 如果返回1，表示"a"在map中（multimap中也有count方法，
+	// 返回的值可能大于1）
+	my_Map.count("a");
 ```
 
 - 删除数据
