@@ -1,12 +1,8 @@
 #Windows OpenVPN Client
 
---------
-
 ##requirement:
 
 - window 7/8 64 bit
-
---------
 
 ##配置步骤：
 1. 安装openvpn-install-2.3.2-I003-x86_64.exe（管理员身份）。
